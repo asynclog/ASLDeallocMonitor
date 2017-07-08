@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0D493B3FD30E01472331496F /* Pods-ASLDeallocMonitor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASLDeallocMonitor_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASLDeallocMonitor_Example/Pods-ASLDeallocMonitor_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1730E01DEAD01B4F17F097D0 /* ASLDeallocMonitor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ASLDeallocMonitor.podspec; path = ../ASLDeallocMonitor.podspec; sourceTree = "<group>"; };
+		1730E01DEAD01B4F17F097D0 /* ASLDeallocMonitor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ASLDeallocMonitor.podspec; path = ../ASLDeallocMonitor.podspec; sourceTree = "<group>"; };
 		3525D2D38A055F843AAC984A /* Pods-ASLDeallocMonitor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASLDeallocMonitor_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASLDeallocMonitor_Example/Pods-ASLDeallocMonitor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4297999E9907349D2CCC57C3 /* Pods_ASLDeallocMonitor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASLDeallocMonitor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3159F2BD3DC29E33890D62 /* Pods-ASLDeallocMonitor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASLDeallocMonitor_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASLDeallocMonitor_Tests/Pods-ASLDeallocMonitor_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -61,11 +61,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		610F16B1E2486BB6D97858CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		610F16B1E2486BB6D97858CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CBAD8E93C7CFA6B20079AEA /* Pods_ASLDeallocMonitor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASLDeallocMonitor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A057DBA386309A1E1B6AD8E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9A057DBA386309A1E1B6AD8E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		ACA76C851B3E7D4E6BF8939D /* Pods-ASLDeallocMonitor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASLDeallocMonitor_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASLDeallocMonitor_Tests/Pods-ASLDeallocMonitor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -203,12 +203,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ASLDeallocMonitor_Example" */;
 			buildPhases = (
-				3DED9A26B25A4BFC52A71E2F /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				18C1BB13F7E0511BADFA7898 /* [CP] Embed Pods Frameworks */,
-				A1EDACBA4126890181EDCFB2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -310,51 +307,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASLDeallocMonitor_Tests/Pods-ASLDeallocMonitor_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		18C1BB13F7E0511BADFA7898 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASLDeallocMonitor_Example/Pods-ASLDeallocMonitor_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3DED9A26B25A4BFC52A71E2F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		A1EDACBA4126890181EDCFB2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASLDeallocMonitor_Example/Pods-ASLDeallocMonitor_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EFCB5045672FE3D6CA756A49 /* [CP] Check Pods Manifest.lock */ = {
