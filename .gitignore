@@ -93,3 +93,13 @@ Example/Pods/Target Support Files/Pods-ASLDeallocMonitor_Tests/Pods-ASLDeallocMo
 Example/Pods/Target Support Files/Pods-ASLDeallocMonitor_Tests/Pods-ASLDeallocMonitor_Tests.debug.xcconfig
 Example/Pods/Target Support Files/Pods-ASLDeallocMonitor_Tests/Pods-ASLDeallocMonitor_Tests.modulemap
 Example/Pods/Target Support Files/Pods-ASLDeallocMonitor_Tests/Pods-ASLDeallocMonitor_Tests.release.xcconfig
+Example/Pods/Aspects/Aspects.h
+Example/Pods/Aspects/Aspects.m
+Example/Pods/Aspects/LICENSE
+Example/Pods/Aspects/README.md
+Example/Pods/Target Support Files/Aspects/Aspects-dummy.m
+Example/Pods/Target Support Files/Aspects/Aspects-prefix.pch
+Example/Pods/Target Support Files/Aspects/Aspects-umbrella.h
+Example/Pods/Target Support Files/Aspects/Aspects.modulemap
+Example/Pods/Target Support Files/Aspects/Aspects.xcconfig
+Example/Pods/Target Support Files/Aspects/Info.plist
