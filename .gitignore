@@ -61,3 +61,35 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+Example/ASLDeallocMonitor.xcodeproj/xcshareddata/xcschemes/ASLDeallocMonitor-Example.xcscheme
+Example/ASLDeallocMonitor.xcworkspace/contents.xcworkspacedata
+Example/ASLDeallocMonitor/Images.xcassets/AppIcon.appiconset/Contents.json
+Example/Pods/Local Podspecs/ASLDeallocMonitor.podspec.json
+Example/Pods/Manifest.lock
+Example/Pods/Pods.xcodeproj/project.pbxproj
+Example/Pods/Target Support Files/ASLDeallocMonitor/ASLDeallocMonitor-dummy.m
+Example/Pods/Target Support Files/ASLDeallocMonitor/ASLDeallocMonitor-prefix.pch
+Example/Pods/Target Support Files/ASLDeallocMonitor/ASLDeallocMonitor-umbrella.h
+Example/Pods/Target Support Files/ASLDeallocMonitor/ASLDeallocMonitor.modulemap
+Example/Pods/Target Support Files/ASLDeallocMonitor/ASLDeallocMonitor.xcconfig
+Example/Pods/Target Support Files/ASLDeallocMonitor/Info.plist
+Example/Pods/Target Support Files/Pods-ASLDeallocMonitor_Example/Info.plist
+Example/Pods/Target Support Files/Pods-ASLDeallocMonitor_Example/Pods-ASLDeallocMonitor_Example-acknowledgements.markdown
+Example/Pods/Target Support Files/Pods-ASLDeallocMonitor_Example/Pods-ASLDeallocMonitor_Example-acknowledgements.plist
+Example/Pods/Target Support Files/Pods-ASLDeallocMonitor_Example/Pods-ASLDeallocMonitor_Example-dummy.m
+Example/Pods/Target Support Files/Pods-ASLDeallocMonitor_Example/Pods-ASLDeallocMonitor_Example-frameworks.sh
+Example/Pods/Target Support Files/Pods-ASLDeallocMonitor_Example/Pods-ASLDeallocMonitor_Example-resources.sh
+Example/Pods/Target Support Files/Pods-ASLDeallocMonitor_Example/Pods-ASLDeallocMonitor_Example-umbrella.h
+Example/Pods/Target Support Files/Pods-ASLDeallocMonitor_Example/Pods-ASLDeallocMonitor_Example.debug.xcconfig
+Example/Pods/Target Support Files/Pods-ASLDeallocMonitor_Example/Pods-ASLDeallocMonitor_Example.modulemap
+Example/Pods/Target Support Files/Pods-ASLDeallocMonitor_Example/Pods-ASLDeallocMonitor_Example.release.xcconfig
+Example/Pods/Target Support Files/Pods-ASLDeallocMonitor_Tests/Info.plist
+Example/Pods/Target Support Files/Pods-ASLDeallocMonitor_Tests/Pods-ASLDeallocMonitor_Tests-acknowledgements.markdown
+Example/Pods/Target Support Files/Pods-ASLDeallocMonitor_Tests/Pods-ASLDeallocMonitor_Tests-acknowledgements.plist
+Example/Pods/Target Support Files/Pods-ASLDeallocMonitor_Tests/Pods-ASLDeallocMonitor_Tests-dummy.m
+Example/Pods/Target Support Files/Pods-ASLDeallocMonitor_Tests/Pods-ASLDeallocMonitor_Tests-frameworks.sh
+Example/Pods/Target Support Files/Pods-ASLDeallocMonitor_Tests/Pods-ASLDeallocMonitor_Tests-resources.sh
+Example/Pods/Target Support Files/Pods-ASLDeallocMonitor_Tests/Pods-ASLDeallocMonitor_Tests-umbrella.h
+Example/Pods/Target Support Files/Pods-ASLDeallocMonitor_Tests/Pods-ASLDeallocMonitor_Tests.debug.xcconfig
+Example/Pods/Target Support Files/Pods-ASLDeallocMonitor_Tests/Pods-ASLDeallocMonitor_Tests.modulemap
+Example/Pods/Target Support Files/Pods-ASLDeallocMonitor_Tests/Pods-ASLDeallocMonitor_Tests.release.xcconfig

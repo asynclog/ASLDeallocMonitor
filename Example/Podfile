@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ASLDeallocMonitor_Example' do
+  pod 'ASLDeallocMonitor', :path => '../'
+
+  target 'ASLDeallocMonitor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
