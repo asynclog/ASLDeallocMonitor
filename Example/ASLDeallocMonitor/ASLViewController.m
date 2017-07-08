@@ -7,6 +7,8 @@
 //
 
 #import "ASLViewController.h"
+#import "ASLTestViewController.h"
+
 
 @interface ASLViewController ()
 
@@ -17,7 +19,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+}
+
+- (IBAction)btnAction:(UIButton *)sender {
+    ASLTestViewController *testVC = [[ASLTestViewController alloc] init];
+    [self.navigationController pushViewController:testVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning

@@ -23,6 +23,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B8292B141F109E6900BB020C /* ASLTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8292B131F109E6900BB020C /* ASLTestViewController.m */; };
+		B8292B171F109E8100BB020C /* ASLTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B8292B161F109E8100BB020C /* ASLTestObject.m */; };
 		B90611EDB94C46D656AFFD53 /* Pods_ASLDeallocMonitor_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBAD8E93C7CFA6B20079AEA /* Pods_ASLDeallocMonitor_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +69,10 @@
 		8CBAD8E93C7CFA6B20079AEA /* Pods_ASLDeallocMonitor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASLDeallocMonitor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A057DBA386309A1E1B6AD8E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		ACA76C851B3E7D4E6BF8939D /* Pods-ASLDeallocMonitor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASLDeallocMonitor_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASLDeallocMonitor_Tests/Pods-ASLDeallocMonitor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8292B121F109E6900BB020C /* ASLTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASLTestViewController.h; sourceTree = "<group>"; };
+		B8292B131F109E6900BB020C /* ASLTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASLTestViewController.m; sourceTree = "<group>"; };
+		B8292B151F109E8100BB020C /* ASLTestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASLTestObject.h; sourceTree = "<group>"; };
+		B8292B161F109E8100BB020C /* ASLTestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASLTestObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +146,10 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				B8292B121F109E6900BB020C /* ASLTestViewController.h */,
+				B8292B131F109E6900BB020C /* ASLTestViewController.m */,
+				B8292B151F109E8100BB020C /* ASLTestObject.h */,
+				B8292B161F109E8100BB020C /* ASLTestObject.m */,
 			);
 			name = "Example for ASLDeallocMonitor";
 			path = ASLDeallocMonitor;
@@ -203,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ASLDeallocMonitor_Example" */;
 			buildPhases = (
+				650B3064A73FABF65D575287 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				6208FA953A9CA215A21AAF42 /* [CP] Embed Pods Frameworks */,
+				4B454812DD83B973C697DA0B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -309,6 +322,51 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASLDeallocMonitor_Tests/Pods-ASLDeallocMonitor_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		4B454812DD83B973C697DA0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASLDeallocMonitor_Example/Pods-ASLDeallocMonitor_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6208FA953A9CA215A21AAF42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASLDeallocMonitor_Example/Pods-ASLDeallocMonitor_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		650B3064A73FABF65D575287 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		EFCB5045672FE3D6CA756A49 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -347,6 +405,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* ASLAppDelegate.m in Sources */,
+				B8292B171F109E8100BB020C /* ASLTestObject.m in Sources */,
+				B8292B141F109E6900BB020C /* ASLTestViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* ASLViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

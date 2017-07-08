@@ -7,12 +7,15 @@
 //
 
 #import "ASLAppDelegate.h"
+#import <ASLDeallocMonitor/ASCDeallocMonitor.h>
 
 @implementation ASLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [ASCDeallocMonitor monitor].observeClass = NSClassFromString(@"ASLTestViewController");
+    [ASCDeallocMonitor monitor].delay = 1;
+    [[ASCDeallocMonitor monitor] startMonitor];
     return YES;
 }
 
